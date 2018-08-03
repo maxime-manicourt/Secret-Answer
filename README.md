@@ -1,24 +1,34 @@
-# README
+Projet : espace connexion
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h5>Heroku (lien du site)</h5>
+    >  <a href="https://thp-lille-secret.herokuapp.com/">La réponse en ligne</a>
+    
+   le profil exemple est: email: gillou@thebest.fr  , mot de passe : thebest
+   Au pire, vous pourrez créer le votre :)
 
-Things you may want to cover:
 
-* Ruby version
+Etape 1:   
 
-* System dependencies
+    > git clone https://github.com/maxime-manicourt/Secret-Answer.git
 
-* Configuration
+Etape 2: 
 
-* Database creation
+    > cd Secret-Answer
+    
+Etape 3:
 
-* Database initialization
+    > rake db:migrate 
+     
+Etape 4:
 
-* How to run the test suite
+    > rails db:seed
+   
+Etape 5:  
 
-* Services (job queues, cache servers, search engines, etc.)
+    > rails s
+    
+Etape 6:  
 
-* Deployment instructions
-
-* ...
+    > aller sur :  http://localhost:3000/
+    
+Merci de votre attention :)

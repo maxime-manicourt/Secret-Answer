@@ -22,3 +22,9 @@
 .container {
     max-width: 900px;
 }
+
+.btn-login {
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid gray();
+}
